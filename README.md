@@ -19,6 +19,4 @@ V(G)=E−N+2. Каде што:</p>
 <img src="SI_2024_lab2_every_branch_testiranje.PNG" alt="Mesto od slika so test slucai po every branch kriterium"/>
 <h3>Тестирање случаи по Multiple Condition критериум</h3>
 <p>За напишување на тест случаи според Multiple Condition критериумот, треба да ги разгледаме сите можни комбинации на условите. Во конкретниот услов:</p>
-<code>
-(item.getPrice() > 300 && item.getDiscount() > 0 && item.getBarcode().charAt(0) == '0')
-</code>
+<code>(item.getPrice() > 300 && item.getDiscount() > 0 && item.getBarcode().charAt(0) == '0')</code>
