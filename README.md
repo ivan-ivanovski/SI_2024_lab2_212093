@@ -20,5 +20,5 @@ V(G)=E−N+2. Каде што:</p>
 <h3>Тестирање случаи по Multiple Condition критериум</h3>
 <p>За напишување на тест случаи според Multiple Condition критериумот, треба да ги разгледаме сите можни комбинации на условите. Во конкретниот услов:</p>
 <code>
- (item.getPrice() > 300 && item.getDiscount() > 0 && item.getBarcode().charAt(0) == '0')
+(item.getPrice() > 300 && item.getDiscount() > 0 && item.getBarcode().charAt(0) == '0')
 </code>
