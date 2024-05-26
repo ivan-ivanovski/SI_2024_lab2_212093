@@ -38,15 +38,12 @@ V(G)=E−N+2. Каде што:</p>
 <p>За дел од тестови проверуваме дали во одреден момент се фрла некој исклучок. Доколку е фрлен соодветен исклучок за истиот 
 проверуваме дали ја содржи истата порука како во главниот код.</p>
 <p>Тестови кои што се искористени за тестирање на самиот код.</p>
-<code>Java
+```Java
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
 import java.util.Arrays;
 import java.util.List;
-
 import static org.junit.jupiter.api.Assertions.*;
-
 class SILab2Test {
     @Test
     void checkCartEmptyListAndPayment(){
@@ -107,7 +104,6 @@ class SILab2Test {
         float sumForTest = (400*0.15F)-30 + (200*0.1F) + (500*0.25F)-30;
         assertTrue(SILab2.checkCart(allItems,(int)sumForTest));
     }
-
 }
-</code>
+
 <hr>
